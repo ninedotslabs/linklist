@@ -1,3 +1,6 @@
 dist
 elm-stuff
 .netlify
+public/assets/data/*.json
+public/list.json
+

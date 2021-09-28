@@ -9,6 +9,7 @@ body {
     flex-wrap: wrap;
     gap: 30px;
     padding: 30px;
+    justify-content: center;
 }
 
 img {
@@ -26,7 +27,43 @@ img {
 }
 
 ul {
-    list-style-type: decimal;
+    list-style-type: none;
     margin: 0px;
     padding: 0px;
+    max-width: 320px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-wrap: wrap;
+	li {
+		width: 100%;
+		text-align: center;
+		padding: 15px 5px;
+        &:nth-child(odd) {
+            background: #27a000;
+            color: white;
+        }
+        &:nth-child(even) {
+            background: #6200a0;
+            color: white;
+        }
+        &:nth-child(3n-8) {
+            background: #004ba0;
+            color: white;
+        }
+        &:hover {
+            box-shadow: 5px 6px 0px 2px #111111
+        }
+		a {
+            color: white;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+		}
+	}
 }
