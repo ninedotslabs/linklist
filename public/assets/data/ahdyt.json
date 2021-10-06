@@ -1,0 +1,26 @@
+{ 
+  "name": "Alfian Hidayat",
+  "bio": "Functional programming enthusiast",
+  "avatar": "https://github.com/ahdyt.png",
+  "links": [
+      { "name" : "blogger",
+        "url" : "https://ahdyt.blogspot.com"
+      },
+      { "name" : "github",
+        "url" : "https://github.com/ahdyt"
+      },
+      { "name" : "twitter",
+        "url" : "https://twitter.com/monadfritz"
+      },
+      { "name" : "instagram",
+        "url" : "https://instagram.com/monadfritz"
+      },
+      { "name" : "linkedin",
+        "url" : "https://www.linkedin.com/in/alfianguide"
+      },
+      { "name" : "youtube",
+        "url" : "https://www.youtube.com/channel/UCUdY_zif5IQlhBsblye6WqA"
+      }
+  ],
+  "slug": "ahdyt"
+}

@@ -1,0 +1,11 @@
+{ 
+  "name": "Kale Indie",
+  "bio": "Simplicity and pragmatism IT service",
+  "avatar": "https://github.com/kaleindie.png",
+  "links": [
+      { "name" : "website",
+        "url" : "https://kaleindie.netlify.app/"
+      }
+  ],
+  "slug": "kaleindie"
+}

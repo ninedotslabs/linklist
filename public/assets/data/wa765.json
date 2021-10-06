@@ -1,0 +1,20 @@
+{ 
+  "name": "Wahyu Rizqi Saputra",
+  "bio": "UI/UX designer",
+  "avatar": "https://github.com/wa765.png",
+  "links": [
+      { "name" : "github",
+        "url" : "https://github.com/wa765"
+      },
+      { "name" : "blog",
+        "url" : "www.seputarmabait.blogspot.com"
+      },
+      { "name" : "linkedin",
+        "url" : "https://www.linkedin.com/in/wahyu-saputra-30a140209/"
+      },
+      { "name" : "trakteer",
+        "url" : "https://trakteer.id/wahyu-saputra-ccaxb"
+      }
+  ],
+  "slug": "wa765"
+}
