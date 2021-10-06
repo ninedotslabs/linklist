@@ -3,4 +3,5 @@ elm-stuff
 .netlify
 public/assets/data/*.json
 public/list.json
-
+node_modules/
+package-lock.json
