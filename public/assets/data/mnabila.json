@@ -1,0 +1,14 @@
+{ 
+  "name": "M. Nabil Adani",
+  "bio": "Mager tersertifikasi",
+  "avatar": "https://github.com/mnabila.png",
+  "links": [
+      { "name" : "github",
+        "url" : "https://github.com/mnabila"
+      },
+      { "name" : "telegram",
+        "url" : "https://t.me/mnabila"
+      }
+  ],
+  "slug": "mnabila"
+}

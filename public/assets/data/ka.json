@@ -1,0 +1,32 @@
+{ 
+  "name": "Kholifatul Ardliyan",
+  "bio": "Just ordinary people",
+  "avatar": "https://github.com/k-ardliyan.png",
+  "links": [
+      { "name" : "github",
+        "url" : "https://github.com/k-ardliyan"
+      },
+      { "name" : "twitter",
+        "url" : "https://twitter.com/k_ardliyan"
+      },
+      { "name" : "facebook",
+        "url" : "https://www.linkedin.com/in/k-ardliyan"
+      },
+      { "name" : "instagram",
+        "url" : "https://www.instagram.com/k_ardliyan"
+      },
+      { "name" : "linkedin",
+        "url" : "https://www.linkedin.com/in/k-ardliyan"
+      },
+      { "name" : "youtube",
+        "url" : "https://www.youtube.com/c/KArdliyan"
+      },
+      { "name" : "twitch",
+        "url" : "https://steamcommunity.com/id/k_ardliyan/"
+      },
+      { "name" : "steam",
+        "url" : "https://www.twitch.tv/k_ardliyan"
+      }
+  ],
+  "slug": "ka"
+}
