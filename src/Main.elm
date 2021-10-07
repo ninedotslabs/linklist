@@ -81,35 +81,6 @@ type PersonMsg
     = NoPerson
     | GotPerson (Result Http.Error Person)
 
-
-
--- State
-
-
-initialState =
-    [ Person
-        "alfian"
-        "programmer"
-        "https://github.com/stemount.png"
-        [ Link "github" "https://github.com/ahdyt"
-        , Link "twitter" "https://github.com/ahdyt"
-        , Link "linkedin" "https://github.com/ahdyt"
-        ]
-        "ahdyt"
-    , Person
-        "budi"
-        "progamer"
-        "https://github.com/stemount.png"
-        [ Link "github" "https://github.com/ninedotslabs" ]
-        "budi"
-    ]
-
-
-initialStatePerson =
-    Person "tolol" "progamer" "pic.png" [ Link "github" "https://github.com/ninedotslabs" ] "budi"
-
-
-
 -- Logic
 
 
@@ -188,7 +159,7 @@ view model =
         PageNotFound ->
             { title = "404 Not Found"
             , body =
-                [ div [] [ text "THIS CONTENT IS NOT AVAILABLE IN YOUR COUNTRY." ]
+                [ viewStatic "THIS CONTENT IS NOT AVAILABLE IN YOUR COUNTRY." ]
                 , a [ href "/" ] [ text "GO HOME" ]
                 ]
             }
