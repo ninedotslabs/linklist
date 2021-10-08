@@ -4,6 +4,7 @@ module Main exposing (..)
 
 import Browser
 import Browser.Navigation as Nav
+import Components.Logo exposing (spinner)
 import Dict
 import Html exposing (..)
 import Html.Attributes exposing (..)
@@ -201,7 +202,7 @@ view model =
                         [ viewStatic "Failure..." ]
 
                     CILoading ->
-                        [ viewStatic "Loading..." ]
+                        [ viewSpinner ]
 
                     CISuccess lP ->
                         [ div [ class "container" ] (List.map viewPersonHome lP) ]
@@ -216,7 +217,7 @@ view model =
 
                 CPLoading ->
                     { title = "Loading"
-                    , body = [ viewStatic "Loading..." ]
+                    , body = [ viewSpinner ]
                     }
 
                 CPSuccess p ->
@@ -227,6 +228,10 @@ view model =
                     { title = name
                     , body = [ viewPerson p ]
                     }
+
+
+viewSpinner =
+    div [ class "container" ] [ spinner ]
 
 
 viewStatic t =
