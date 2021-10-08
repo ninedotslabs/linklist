@@ -160,7 +160,7 @@ view model =
         PageNotFound ->
             { title = "404 Not Found"
             , body =
-                [ viewStatic "THIS CONTENT IS NOT AVAILABLE IN YOUR COUNTRY." ]
+                [ viewStatic "THIS CONTENT IS NOT AVAILABLE IN YOUR COUNTRY."
                 , a [ href "/" ] [ text "GO HOME" ]
                 ]
             }
